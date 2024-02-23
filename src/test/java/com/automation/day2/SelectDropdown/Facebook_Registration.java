@@ -1,4 +1,4 @@
-package com.automation.DynamicDropdown;
+package com.automation.day2.SelectDropdown;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -24,7 +24,7 @@ public class Facebook_Registration {
 		
 		//May 09 1965
 		
-		//Dynamic Dropdown
+		//Select Dropdown
 		Select select = new Select(driver.findElement(By.id("month")));
 		select.selectByVisibleText("May");
 		

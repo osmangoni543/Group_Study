@@ -1,4 +1,4 @@
-package com.automation.day2;
+package com.automation.day2.Xpath;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -6,13 +6,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Locators_In_Selenium {
 	
-	// id
-	// className
-	// name
-	// linkText
-	// partialLinkTest
-	// xpath
-	// cssSelector
+	// id (Done)
+	// className (Done)
+	// name (Done)
+	// linkText (Done)
+	// partialLinkTest 
+	// xpath (Done)
+	// cssSelector (Done)
 	// tagName
 	
 	public static void main(String[] args) throws Exception {

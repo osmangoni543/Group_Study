@@ -1,4 +1,4 @@
-package com.automation.day2;
+package com.automation.day2.Xpath;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
