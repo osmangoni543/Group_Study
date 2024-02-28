@@ -4,7 +4,7 @@ public class Operators_in_Java {
 
 	public static void main(String[] args) {
 		// Arithmetic Operators
-				// + - * / % ++ --
+				// + - * / %   ++   --
 				
 				//Assignment Operators
 				//int i = 5;
@@ -13,7 +13,7 @@ public class Operators_in_Java {
 				//x+=3 this means x = x+3;
 
 				//Comparison Operators 
-				// == != >   < >=  <=
+				// ==   !=   >   <   >=    <=
 
 				//Logical Operators
 				//&& - Logical And
@@ -55,6 +55,19 @@ public class Operators_in_Java {
 		
 		System.out.println(5!=5);
 		
+		int x = 2;
+		int y = 5;
+		
+		String s1 = "Hello";
+		String s2 = "Hello";
+		
+		
+		if(x==y || s1==s2) {
+			System.out.println("The statement is correct.");
+		} 
+		else {
+			System.out.println("The statement is incorrect");
+		}
 		
 
 

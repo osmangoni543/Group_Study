@@ -6,12 +6,19 @@ public class Object_Oriented_Programming {
 	
 	
 	//1. Methods(DONE)
+	
 	//2. Classes and Objects(DONE)
+	
 	//3. Inheritance(Done)
+	
 	//4. Polymorphism(Done)
+	
 	//  a)Method Overloading(Done)
+	
 	//  b)Method Overriding(Done)
+	
 	//5. Abstraction
+	
 	//6. Encapsulation(DONE)
 
 }
