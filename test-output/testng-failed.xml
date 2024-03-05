@@ -3,13 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Testng.day1.Xpath_CSS.TutorialsNinjaCSS">
+      <class name="com.Testng.day3.Login">
         <methods>
-          <include name="validRegistration"/>
+          <include name="positiveLogin"/>
+          <include name="invalidEmailValidPassword"/>
+          <include name="validEmailInvalidPassword"/>
+          <include name="invalidEmailInvalidPassword"/>
           <include name="setup"/>
           <include name="teardown"/>
+          <include name="noCredentials"/>
         </methods>
-      </class> <!-- com.Testng.day1.Xpath_CSS.TutorialsNinjaCSS -->
+      </class> <!-- com.Testng.day3.Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
