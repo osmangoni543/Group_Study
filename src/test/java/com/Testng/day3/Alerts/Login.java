@@ -1,4 +1,4 @@
-package com.Testng.day3;
+package com.Testng.day3.Alerts;
 
 import java.time.Duration;
 
@@ -19,6 +19,7 @@ import org.testng.annotations.Test;
 	//Priority
 	//dependsOnMethods
 	//invocationCount = 3
+	//enabled = false
 	//alwaysRun = true
     //alwaysRun = false
 

@@ -1,249 +1,220 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="0" failed="2" skipped="3">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-05T14:36:29 EST" name="Default suite" finished-at="2024-03-05T14:36:48 EST" duration-ms="19431">
+  <suite started-at="2024-03-05T23:38:32 EST" name="Default suite" finished-at="2024-03-05T23:40:05 EST" duration-ms="92370">
     <groups>
     </groups>
-    <test started-at="2024-03-05T14:36:29 EST" name="Default test" finished-at="2024-03-05T14:36:48 EST" duration-ms="19431">
-      <class name="com.Testng.day3.Login">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Testng.day3.Login@4b8ee4de]" started-at="2024-03-05T14:36:29 EST" name="setup" finished-at="2024-03-05T14:36:35 EST" duration-ms="5590" status="PASS">
+    <test started-at="2024-03-05T23:38:32 EST" name="Default test" finished-at="2024-03-05T23:40:05 EST" duration-ms="92370">
+      <class name="com.Testng.day4.PracticeProject.RegistrationTN">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Testng.day4.PracticeProject.RegistrationTN@52b1beb6]" started-at="2024-03-05T23:38:32 EST" name="setup" finished-at="2024-03-05T23:38:38 EST" duration-ms="6017" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="positiveLogin()[pri:1, instance:com.Testng.day3.Login@4b8ee4de]" started-at="2024-03-05T14:36:35 EST" name="positiveLogin" finished-at="2024-03-05T14:36:42 EST" duration-ms="7901" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.fail(Assert.java:116)
-at com.Testng.day3.Login.positiveLogin(Login.java:48)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="TNRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.Testng.day4.PracticeProject.RegistrationTN@52b1beb6]" started-at="2024-03-05T23:38:38 EST" name="TNRegistration" data-provider="getTNdata" finished-at="2024-03-05T23:38:50 EST" duration-ms="11256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Timothy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Carrol]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Timothy1@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[571-555-1212]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Timothy123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- positiveLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Testng.day3.Login@4b8ee4de]" started-at="2024-03-05T14:36:42 EST" name="teardown" finished-at="2024-03-05T14:36:43 EST" duration-ms="295" status="PASS">
+        </test-method> <!-- TNRegistration -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Testng.day4.PracticeProject.RegistrationTN@52b1beb6]" started-at="2024-03-05T23:38:50 EST" name="teardown" finished-at="2024-03-05T23:38:50 EST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Testng.day3.Login@4b8ee4de]" started-at="2024-03-05T14:36:43 EST" name="setup" finished-at="2024-03-05T14:36:47 EST" duration-ms="4446" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Testng.day4.PracticeProject.RegistrationTN@52b1beb6]" started-at="2024-03-05T23:38:50 EST" name="setup" finished-at="2024-03-05T23:38:54 EST" duration-ms="4659" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validEmailInvalidPassword()[pri:2, instance:com.Testng.day3.Login@4b8ee4de]" started-at="2024-03-05T14:36:47 EST" name="validEmailInvalidPassword" finished-at="2024-03-05T14:36:48 EST" depends-on-methods="com.Testng.day3.Login.positiveLogin" duration-ms="861" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text() = 'Edit your account information']"}
-  (Session info: chrome=122.0.6261.95)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d8633cf95b4a26c325320c0ebf10e9be, findElement {using=xpath, value=//a[text() = 'Edit your account information']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\osman\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59938}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59938/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d8633cf95b4a26c325320c0ebf10e9be]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text() = 'Edit your account information']"}
-  (Session info: chrome=122.0.6261.95)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d8633cf95b4a26c325320c0ebf10e9be, findElement {using=xpath, value=//a[text() = 'Edit your account information']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\osman\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59938}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59938/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d8633cf95b4a26c325320c0ebf10e9be
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-at com.Testng.day3.Login.validEmailInvalidPassword(Login.java:57)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="TNRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.Testng.day4.PracticeProject.RegistrationTN@52b1beb6]" started-at="2024-03-05T23:38:54 EST" name="TNRegistration" data-provider="getTNdata" finished-at="2024-03-05T23:39:06 EST" duration-ms="11422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Timothy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Carrol]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Timothy2@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[571-555-1212]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Timothy123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validEmailInvalidPassword -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Testng.day3.Login@4b8ee4de]" started-at="2024-03-05T14:36:48 EST" name="teardown" finished-at="2024-03-05T14:36:48 EST" duration-ms="249" status="PASS">
+        </test-method> <!-- TNRegistration -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Testng.day4.PracticeProject.RegistrationTN@52b1beb6]" started-at="2024-03-05T23:39:06 EST" name="teardown" finished-at="2024-03-05T23:39:06 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method signature="invalidEmailValidPassword()[pri:3, instance:com.Testng.day3.Login@4b8ee4de]" started-at="2024-03-05T14:36:48 EST" name="invalidEmailValidPassword" finished-at="2024-03-05T14:36:48 EST" depends-on-methods="com.Testng.day3.Login.positiveLogin" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method com.Testng.day3.Login.invalidEmailValidPassword() on instance com.Testng.day3.Login@4b8ee4de depends on not successfully finished methods 
-[com.Testng.day3.Login.positiveLogin() on instance com.Testng.day3.Login@4b8ee4de]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method com.Testng.day3.Login.invalidEmailValidPassword() on instance com.Testng.day3.Login@4b8ee4de depends on not successfully finished methods 
-[com.Testng.day3.Login.positiveLogin() on instance com.Testng.day3.Login@4b8ee4de]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Testng.day4.PracticeProject.RegistrationTN@52b1beb6]" started-at="2024-03-05T23:39:06 EST" name="setup" finished-at="2024-03-05T23:39:10 EST" duration-ms="4692" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- invalidEmailValidPassword -->
-        <test-method signature="invalidEmailInvalidPassword()[pri:4, instance:com.Testng.day3.Login@4b8ee4de]" started-at="2024-03-05T14:36:48 EST" name="invalidEmailInvalidPassword" finished-at="2024-03-05T14:36:48 EST" depends-on-methods="com.Testng.day3.Login.positiveLogin" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method com.Testng.day3.Login.invalidEmailInvalidPassword() on instance com.Testng.day3.Login@4b8ee4de depends on not successfully finished methods 
-[com.Testng.day3.Login.positiveLogin() on instance com.Testng.day3.Login@4b8ee4de]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method com.Testng.day3.Login.invalidEmailInvalidPassword() on instance com.Testng.day3.Login@4b8ee4de depends on not successfully finished methods 
-[com.Testng.day3.Login.positiveLogin() on instance com.Testng.day3.Login@4b8ee4de]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        </test-method> <!-- setup -->
+        <test-method signature="TNRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.Testng.day4.PracticeProject.RegistrationTN@52b1beb6]" started-at="2024-03-05T23:39:10 EST" name="TNRegistration" data-provider="getTNdata" finished-at="2024-03-05T23:39:22 EST" duration-ms="11196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Timothy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Carrol]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Timothy3@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[571-555-1212]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Timothy123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- invalidEmailInvalidPassword -->
-        <test-method signature="noCredentials()[pri:5, instance:com.Testng.day3.Login@4b8ee4de]" started-at="2024-03-05T14:36:48 EST" name="noCredentials" finished-at="2024-03-05T14:36:48 EST" depends-on-methods="com.Testng.day3.Login.positiveLogin" duration-ms="1" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method com.Testng.day3.Login.noCredentials() on instance com.Testng.day3.Login@4b8ee4de depends on not successfully finished methods 
-[com.Testng.day3.Login.positiveLogin() on instance com.Testng.day3.Login@4b8ee4de]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method com.Testng.day3.Login.noCredentials() on instance com.Testng.day3.Login@4b8ee4de depends on not successfully finished methods 
-[com.Testng.day3.Login.positiveLogin() on instance com.Testng.day3.Login@4b8ee4de]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        </test-method> <!-- TNRegistration -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Testng.day4.PracticeProject.RegistrationTN@52b1beb6]" started-at="2024-03-05T23:39:22 EST" name="teardown" finished-at="2024-03-05T23:39:22 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- noCredentials -->
-      </class> <!-- com.Testng.day3.Login -->
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Testng.day4.PracticeProject.RegistrationTN@52b1beb6]" started-at="2024-03-05T23:39:22 EST" name="setup" finished-at="2024-03-05T23:39:26 EST" duration-ms="4726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TNRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.Testng.day4.PracticeProject.RegistrationTN@52b1beb6]" started-at="2024-03-05T23:39:26 EST" name="TNRegistration" data-provider="getTNdata" finished-at="2024-03-05T23:39:38 EST" duration-ms="11153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Timothy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Carrol]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Timothy4@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[571-555-1212]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Timothy123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TNRegistration -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Testng.day4.PracticeProject.RegistrationTN@52b1beb6]" started-at="2024-03-05T23:39:38 EST" name="teardown" finished-at="2024-03-05T23:39:38 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Testng.day4.PracticeProject.RegistrationTN@52b1beb6]" started-at="2024-03-05T23:39:38 EST" name="setup" finished-at="2024-03-05T23:39:42 EST" duration-ms="4743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TNRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.Testng.day4.PracticeProject.RegistrationTN@52b1beb6]" started-at="2024-03-05T23:39:42 EST" name="TNRegistration" data-provider="getTNdata" finished-at="2024-03-05T23:39:53 EST" duration-ms="11144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Timothy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Carrol]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Timothy5@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[571-555-1212]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Timothy123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TNRegistration -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Testng.day4.PracticeProject.RegistrationTN@52b1beb6]" started-at="2024-03-05T23:39:53 EST" name="teardown" finished-at="2024-03-05T23:39:53 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Testng.day4.PracticeProject.RegistrationTN@52b1beb6]" started-at="2024-03-05T23:39:53 EST" name="setup" finished-at="2024-03-05T23:39:58 EST" duration-ms="4685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TNRegnWithNoField()[pri:2, instance:com.Testng.day4.PracticeProject.RegistrationTN@52b1beb6]" started-at="2024-03-05T23:39:58 EST" name="TNRegnWithNoField" finished-at="2024-03-05T23:40:05 EST" duration-ms="6571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TNRegnWithNoField -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Testng.day4.PracticeProject.RegistrationTN@52b1beb6]" started-at="2024-03-05T23:40:05 EST" name="teardown" finished-at="2024-03-05T23:40:05 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Testng.day4.PracticeProject.RegistrationTN -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

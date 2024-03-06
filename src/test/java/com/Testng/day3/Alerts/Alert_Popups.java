@@ -1,4 +1,4 @@
-package com.Testng.day3;
+package com.Testng.day3.Alerts;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
