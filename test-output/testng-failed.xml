@@ -3,17 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Testng.day3.Login">
+      <class name="com.Testng.day5.MultipleWebElements.BBC">
         <methods>
-          <include name="positiveLogin"/>
-          <include name="invalidEmailValidPassword"/>
-          <include name="validEmailInvalidPassword"/>
-          <include name="invalidEmailInvalidPassword"/>
           <include name="setup"/>
           <include name="teardown"/>
-          <include name="noCredentials"/>
+          <include name="bbcLinks"/>
         </methods>
-      </class> <!-- com.Testng.day3.Login -->
+      </class> <!-- com.Testng.day5.MultipleWebElements.BBC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
