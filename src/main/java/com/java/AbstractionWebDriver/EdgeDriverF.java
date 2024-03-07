@@ -1,6 +1,6 @@
 package com.java.AbstractionWebDriver;
 
-public class EdgeDriver implements WebDriver{
+public class EdgeDriverF implements WebDriverF{
 	
 	@Override
 	public void get() {

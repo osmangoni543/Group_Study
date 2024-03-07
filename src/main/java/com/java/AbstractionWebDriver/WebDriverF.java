@@ -1,6 +1,6 @@
 package com.java.AbstractionWebDriver;
 
-public interface WebDriver {
+public interface WebDriverF {
 	
 	public void get();
 	

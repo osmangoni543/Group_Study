@@ -1,6 +1,6 @@
 package com.java.AbstractionWebDriver;
 
-public class FirefoxDriver implements WebDriver{
+public class FirefoxDriverF implements WebDriverF{
 
 	@Override
 	public void get() {

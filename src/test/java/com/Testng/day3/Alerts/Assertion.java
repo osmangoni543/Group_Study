@@ -23,7 +23,7 @@ import org.testng.annotations.Test;
 	//alwaysRun = true
     //alwaysRun = false
 
-public class Login {
+public class Assertion {
 	
 	public WebDriver driver;
 	
@@ -38,7 +38,7 @@ public class Login {
 		
 	}
 	
-	@Test(priority=1 )
+	@Test(priority=1, enabled=false, alwaysRun = true )
 	public void positiveLogin() throws Exception {
 	driver.findElement(By.id("input-email")).sendKeys("Seleniumpanda@gmail.com");
 	driver.findElement(By.id("input-password")).sendKeys("Selenium@123");
@@ -47,7 +47,7 @@ public class Login {
 	Thread.sleep(3000);
 	WebElement edit_account = driver.findElement(By.xpath("//a[text() = 'Edit your account information']"));
 	Assert.assertTrue(edit_account.isDisplayed() && edit_account.isEnabled());
-	Assert.fail();
+	Assert.fail("Deliberately Failing");
 	
 	}
 	

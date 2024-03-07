@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Testng.day5.MultipleWebElements.BBC">
+      <class name="com.Testng.day3.Alerts.SoftAssert">
         <methods>
-          <include name="setup"/>
-          <include name="teardown"/>
-          <include name="bbcLinks"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- com.Testng.day5.MultipleWebElements.BBC -->
+      </class> <!-- com.Testng.day3.Alerts.SoftAssert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

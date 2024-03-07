@@ -1,6 +1,6 @@
 package com.java.AbstractionWebDriver;
 
-public class ChromeDriver implements WebDriver{
+public class ChromeDriverF implements WebDriverF{
 
 	@Override
 	public void get() {
